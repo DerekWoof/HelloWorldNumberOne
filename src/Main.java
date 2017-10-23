@@ -1,5 +1,6 @@
 
-import Help.*;
+import Help.GreatestNumbers;
+import Printing.*;
 
 public class Main {
 
@@ -9,7 +10,7 @@ public class Main {
 
         System.out.println(first + "\nHello World");
 
-        GetCurrentDateAndTime scanner = new GetCurrentDateAndTime();
+        PrimeNumber scanner = new PrimeNumber();
 
         System.out.println(scanner);
 
