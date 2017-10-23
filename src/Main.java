@@ -1,7 +1,5 @@
 
-import Help.DayMonthChangeNumbers;
-import Help.SquareArea;
-import Help.SwapTwoNumber;
+import Help.*;
 
 public class Main {
 
@@ -11,7 +9,7 @@ public class Main {
 
         System.out.println(first + "\nHello World");
 
-        SquareArea scanner = new SquareArea();
+        GetCurrentDateAndTime scanner = new GetCurrentDateAndTime();
 
         System.out.println(scanner);
 
