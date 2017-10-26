@@ -1,4 +1,5 @@
 
+import Finding.Factorial;
 import Help.GreatestNumbers;
 import Printing.*;
 
@@ -10,7 +11,8 @@ public class Main {
 
         System.out.println(first + "\nHello World");
 
-        PrimeNumber scanner = new PrimeNumber();
+        Factorial scanner = new Factorial();
+
 
         System.out.println(scanner);
 
