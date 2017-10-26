@@ -1,7 +1,6 @@
 
-import Finding.Factorial;
-import Help.GreatestNumbers;
-import Printing.*;
+import Help.Factorial;
+import Numbers.Palindrome;
 
 public class Main {
 
@@ -11,7 +10,7 @@ public class Main {
 
         System.out.println(first + "\nHello World");
 
-        Factorial scanner = new Factorial();
+        Palindrome scanner = new Palindrome();
 
 
         System.out.println(scanner);
