@@ -1,19 +1,22 @@
 
+import Help.Encryption;
 import Help.Factorial;
+import Help.ScannerSUmOfTwoNumbers;
 import Numbers.Palindrome;
 
 public class Main {
 
-    private static String first = "Dzień dobry";
+    public static void main(String[] args) throws Exception {
 
-    public static void main(String[] args) {
+        Encryption myEncryption = new Encryption();
 
-        System.out.println(first + "\nHello World");
+        String stringToEncrypt = "awwalsoft.com";
+        String encrypted = myEncryption.encrypt(stringToEncrypt);
+        String decrypted = myEncryption.decrypt(encrypted);
 
-        Palindrome scanner = new Palindrome();
-
-
-        System.out.println(scanner);
+        System.out.println("String to Encrypt: " + stringToEncrypt);
+        System.out.println("Encrypted Value: " + encrypted);
+        System.out.println("Decrypted Value: " + decrypted);
 
     }
 }
